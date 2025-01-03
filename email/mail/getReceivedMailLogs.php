@@ -1,0 +1,57 @@
+<?php
+
+
+/**
+ * 获取收信记录
+ */
+date_default_timezone_set("PRC");
+
+$prikey = '-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQDVPIRpiMW7RN2Y1UKPzjFRQTNgmcKtzJZGMYmMmrAWc+Ur6cT4
+4PyjuRGFoWAIvICkCZ5AipBv2PpD4NAlWHVS6AAi17z3fSk4eG73LFOgwK4S3Vfv
+evOvCzOqjGXPsd8ehczflZ8wtCBuXQUYeCKhAv5M+P4j05BI4P7JWkq62wIDAQAB
+AoGAHkkGFWcTjlFtl7NSTNJgNsYn4eR0vfJ8tWN7wbiGoem79syw6RgrSaWTU4Nj
+/Fmpe6LSEyCa+we6I8HeTi+OGgHcMjameeeJeWpLMbuJnFIY5LXTRugHkjQDbKqm
+45n4+b712mYOGibr11zsn+8owrEuEWNIjP+IG6b8s8CtBcECQQD2IeueMzoAO4wX
+O34bdc5dJV6xhLvx68vkdEDNxRRQciJPjDJdmWBbTMFkz+KnywHhJxpcginWHuSR
+5FsvIWnDAkEA3cj7MH9+ZS7GWV+WXTvG2HG+cAiJlZ05MV/LDId6HoWixfDFGBru
+Pgn1jpiHOrSkP9ptblXngW2QVstdoPbBCQJBANNnexrcYPsGKmNiBATOALvcdyL+
+IPe/UdcdSvPyTGp0PagZgMEIFc0Vdh6Ct+jq4uhiT7AZVJnG2we8Hd2zU0UCQEcX
+9e1F8S5eIBbmHT0lvEgFrhYbpn7fN0Ysfto1U2AVVmg9FfD0MQqSBrT/D9oxrbUK
+P6nuv5ctl+c6qXi/oIECQCPvlp04Cw0oZDvqrUjfNzWT9Ia83Zr/SWfsWjimU0Kq
+ogDVtzmh0zciKobyyp7qZCTyi87PH3+M4+drnQeUfTM=
+-----END RSA PRIVATE KEY-----';
+
+$accounts = "jun";
+$domain = "cstown.com";
+$end = "2023-01-19";
+$page_num = "1";
+$page_size = "2000";
+$product = "cstown_com";
+$start = "2023-01-18";
+$time = date(time()) . '000';
+
+$res = openssl_pkey_get_private($prikey);
+$src = "accounts=" . $accounts . "&domain=" . $domain . "&end=" . $end . "&page_num=" . $page_num . "&page_size=" . $page_size . "&product=" . $product . "&start=" . $start . "&time=" . $time;
+
+if (openssl_sign($src, $out, $res)) {
+	$sign = bin2hex($out);
+	$url = "http://apibj.qiye.163.com/qiyeservice/api/mail/getSentMailLogs";
+	$pram = $src . "&sign=" . $sign;
+
+	echo $url . "?" . $pram . "<br>";
+
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	curl_setopt($ch, CURLOPT_URL, $url);
+	curl_setopt($ch, CURLOPT_POST, 1);
+	curl_setopt($ch, CURLOPT_POSTFIELDS, $pram);
+
+	$data = curl_exec($ch);
+	$list = json_decode($data,true);
+	
+	echo $data;
+	
+	curl_close($ch);
+}
+?>

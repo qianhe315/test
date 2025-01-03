@@ -1,0 +1,679 @@
+2023-08-24 14:38:08 | 192.168.1.101 |   用户：    SQL : SELECT * FROM `cs_users`  WHERE user_name = 'admin' LIMIT 1
+2023-08-24 14:38:08 | 192.168.1.101 |   用户：    SQL : SELECT * FROM `cs_users`  WHERE  user_name = 'admin' and password = 'c8f86bf9c7bf42da426fe359103d40f3' and log_status = 1  LIMIT 1
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_user_group`  WHERE  group_id = '5'  LIMIT 1
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : UPDATE `cs_users` SET error_count = 0  WHERE  user_name = 'admin'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : INSERT INTO `cs_login_ip_manage`  (`insert_time`,`account_number`,`ip`,`browser`,`system`,`access_ip`) VALUES ('2023-08-24 14:38:08','admin','192.168.1.101','Firefox(115.0)','Windows 7','www.erp_demo.com') 
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL :  select a.*,b.* from cs_users as a left join cs_user_group as b on a.group_id = b.group_id where user_id = '1' 
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_users`  WHERE  user_id = '1'  LIMIT 1
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_users`  WHERE  user_name = 'admin' LIMIT 1
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-01%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-01%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-01%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-01%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-01%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-01%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-01%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-01%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-02%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-02%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-02%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-02%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-02%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-02%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-02%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-02%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-03%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-03%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-03%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-03%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-03%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-03%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-03%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-03%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-04%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-04%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-04%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-04%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-04%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-04%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-04%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-04%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-05%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-05%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-05%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-05%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-05%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-05%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-05%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-05%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-06%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-06%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-06%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-06%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-06%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-06%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-06%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-06%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-07%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-07%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-07%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-07%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-07%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-07%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-07%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-07%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-08%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-08%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-08%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-08%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-08%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-08%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-08%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-08%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-09%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-09%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-09%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-09%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-09%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-09%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-09%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-09%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-10%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-10%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-10%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-10%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-10%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-10%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-10%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-10%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-11%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-11%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-11%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-11%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-11%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-11%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-11%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-11%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-12%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-12%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-12%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-12%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-12%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-12%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-12%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-12%'
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT id FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-01%'  
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-01%'  
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-01%'  
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-01%'  
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-01%'  
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-01%'  
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-01%'  
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-01%'  
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-02%'  
+2023-08-24 14:38:08 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-02%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-02%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-02%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-02%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-02%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-02%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-02%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-03%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-03%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-03%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-03%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-03%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-03%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-03%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-03%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-04%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-04%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-04%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-04%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-04%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-04%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-04%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-04%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-05%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-05%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-05%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-05%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-05%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-05%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-05%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-05%'  
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:09 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-06%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-06%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-06%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-06%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-06%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-06%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-06%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-06%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-07%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-07%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-07%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-07%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-07%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-07%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-07%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-07%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-08%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-08%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-08%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-08%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-08%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-08%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-08%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-08%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-09%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-09%'  
+2023-08-24 14:38:10 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-09%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-09%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-09%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-09%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-09%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-09%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-10%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-10%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-10%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-10%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-10%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-10%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-10%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-10%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-11%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-11%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-11%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-11%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-11%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-11%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-11%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-11%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-12%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-12%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-12%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-12%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-12%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-12%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-12%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-12%'  
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_design_return`  WHERE d_status = 5
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_deposit_advance`  WHERE status = 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_save_detail`  WHERE status = 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_discount_audit`  WHERE d_status = 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_quotation_approval`  WHERE status = 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_preparation_approval`  WHERE status = 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers_list_approval`  WHERE cla_status = 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_invoice_status`  WHERE type = 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_application_drawback`  WHERE status = 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and invoice_status = 5
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and invoice_status = 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and invoice_status = 2
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and  invoice_status = 3
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and invoice_status = 4
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_note`  WHERE user_name='admin' LIMIT 1
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_customers`  WHERE user_id="" and customer_status=1 and customer_code<>""
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customer_control`  WHERE customer_code="G1" and customer_code<>""
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customer_control`  WHERE customer_code="J9537" and customer_code<>""
+2023-08-24 14:38:11 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customer_control`  WHERE customer_code="J9538" and customer_code<>""
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL :  select a.*,b.* from cs_users as a left join cs_user_group as b on a.group_id = b.group_id where user_id = '1' 
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_users`  WHERE  user_id = '1'  LIMIT 1
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_users`  WHERE  user_name = 'admin' LIMIT 1
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-01%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-01%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-01%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-01%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-01%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-01%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-01%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-01%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-02%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-02%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-02%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-02%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-02%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-02%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-02%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-02%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-03%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-03%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-03%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-03%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-03%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-03%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-03%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-03%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-04%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-04%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-04%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-04%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-04%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-04%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-04%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-04%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-05%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-05%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-05%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-05%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-05%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-05%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-05%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-05%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-06%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-06%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-06%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-06%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-06%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-06%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-06%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-06%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-07%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-07%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-07%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-07%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-07%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-07%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-07%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-07%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-08%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-08%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-08%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-08%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-08%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-08%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-08%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-08%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-09%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-09%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-09%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-09%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-09%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-09%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-09%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-09%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-10%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-10%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-10%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-10%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-10%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-10%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-10%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-10%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-11%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-11%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-11%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-11%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-11%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-11%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-11%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-11%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-12%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-12%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-12%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-12%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-12%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-12%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-12%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-12%'
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT id FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:32 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-01%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-01%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-01%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-01%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-01%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-01%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-01%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-01%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-02%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-02%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-02%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-02%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-02%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-02%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-02%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-02%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-03%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-03%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-03%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-03%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-03%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-03%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-03%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-03%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-04%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-04%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-04%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-04%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-04%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-04%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-04%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-04%'  
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:33 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-05%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-05%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-05%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-05%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-05%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-05%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-05%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-05%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-06%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-06%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-06%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-06%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-06%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-06%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-06%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-06%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-07%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-07%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-07%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-07%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-07%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-07%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-07%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-07%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-08%'  
+2023-08-24 14:38:34 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-08%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-08%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-08%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-08%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-08%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-08%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-08%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-09%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-09%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-09%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-09%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-09%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-09%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-09%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-09%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-10%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-10%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-10%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-10%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-10%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-10%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-10%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-10%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-11%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-11%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-11%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-11%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-11%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-11%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-11%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-11%'  
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:35 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-12%'  
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-12%'  
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-12%'  
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-12%'  
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-12%'  
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-12%'  
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-12%'  
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-12%'  
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_design_return`  WHERE d_status = 5
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_deposit_advance`  WHERE status = 1
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_save_detail`  WHERE status = 1
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_discount_audit`  WHERE d_status = 1
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_quotation_approval`  WHERE status = 1
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_preparation_approval`  WHERE status = 1
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers_list_approval`  WHERE cla_status = 1
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_invoice_status`  WHERE type = 1
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_application_drawback`  WHERE status = 1
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and invoice_status = 5
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and invoice_status = 1
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and invoice_status = 2
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and  invoice_status = 3
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and invoice_status = 4
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_note`  WHERE user_name='admin' LIMIT 1
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_customers`  WHERE user_id="" and customer_status=1 and customer_code<>""
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customer_control`  WHERE customer_code="G1" and customer_code<>""
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customer_control`  WHERE customer_code="J9537" and customer_code<>""
+2023-08-24 14:38:36 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_customer_control`  WHERE customer_code="J9538" and customer_code<>""
+2023-08-24 14:38:43 | 192.168.1.101 |   用户： admin   SQL :  select a.*,b.* from cs_users as a left join cs_user_group as b on a.group_id = b.group_id where user_id = '1' 
+2023-08-24 14:38:43 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_users`  WHERE   group_id = '50' or group_id = '53'  or group_id = '68' 
+2023-08-24 14:38:43 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_users`  WHERE  user_name = 'admin' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_quotation_sheet`  WHERE order_status='2' 
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_quotation_sheet`  WHERE order_status='2'  ORDER BY  id desc  LIMIT 0,50
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463174'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463174'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463174' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '462770'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '462770'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '462770' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463042'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463042'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463042' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463048'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463048'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463048' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463046'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463046'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463046' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '462864'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '462864'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '462864' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463094'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463094'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463094' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_quotation_sheet_material`  WHERE quotation_id = '507953'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_quotation_sheet_material`  WHERE quotation_id = '507953'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463113'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463113'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463113' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507951'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507951'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507950'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507950'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463157'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463157'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463157' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463079'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463079'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463079' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507947'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507947'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507946'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507946'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463124'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463124'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463124' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '462857'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '462857'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '462857' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463104'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463104'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463104' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463102'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463102'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463102' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '462982'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '462982'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '462982' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463125'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463125'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463125' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507936'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507936'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507934'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507934'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507933'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507933'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507932'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507932'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507931'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507931'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463077'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463077'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463077' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463076'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463076'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463076' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463078'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463078'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463078' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463105'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463105'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463105' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463091'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463091'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463091' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507908'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507908'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463095'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463095'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463095' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463062'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463062'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463062' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507892'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507892'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '462910'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '462910'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '462910' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463053'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463053'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463053' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463055'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463055'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463055' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507886'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507886'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507885'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507885'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507884'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507884'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_quotation_sheet_material`  WHERE quotation_id = '507882'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463023'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463023'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463023' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463034'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463034'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463034' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '462984'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '462984'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '462984' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '462889'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '462889'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '462889' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '462888'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '462888'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '462888' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '463018'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '463018'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '463018' LIMIT 1
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507874'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507874'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507873'
+2023-08-24 14:38:48 | 192.168.1.101 |   用户： admin   SQL : SELECT color FROM `cs_outgoing_inquiry_sheet_color`  WHERE outgoing_inquiry_sheet_id = '507873'
+2023-08-24 14:38:50 | 192.168.1.101 |   用户： admin   SQL :  select a.*,b.* from cs_users as a left join cs_user_group as b on a.group_id = b.group_id where user_id = '1' 
+2023-08-24 14:38:50 | 192.168.1.101 |   用户： admin   SQL : SELECT customer_code,quotation_category FROM `cs_quotation_sheet`  WHERE id = '507969' LIMIT 1
+2023-08-24 14:38:51 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_customers`  WHERE customer_code = 'K3429' LIMIT 1
+2023-08-24 14:39:11 | 192.168.1.101 |   用户： admin   SQL :  select a.*,b.* from cs_users as a left join cs_user_group as b on a.group_id = b.group_id where user_id = '1' 
+2023-08-24 14:39:11 | 192.168.1.101 |   用户： admin   SQL : select a.*,b.* from cs_user_group as a left join cs_users as b on a.group_id = b.group_id where a.bumen = '国外销售部'
+2023-08-24 14:39:11 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_users`  WHERE  user_name = 'admin' LIMIT 1
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT count(*) FROM `cs_quotation_sheet`  WHERE  1  and type1 = 2 
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_quotation_sheet`  WHERE  1  and type1 = 2  ORDER BY  quotation_date desc  LIMIT 0,50
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '508001'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507951'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507950'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507947'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507946'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507941'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507939'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507936'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507934'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507933'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507932'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507931'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507918'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507917'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507912'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507909'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507908'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507892'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507888'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507886'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507885'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507884'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507883'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507881'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507874'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507873'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507859'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507857'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507856'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507855'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507848'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507839'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507838'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507819'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507818'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507814'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507786'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507759'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507756'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507753'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507750'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507733'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507717'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507703'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507690'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507685'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507671'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507668'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507664'
+2023-08-24 14:39:12 | 192.168.1.101 |   用户： admin   SQL : SELECT * FROM `cs_outgoing_inquiry_sheet_color`  WHERE  outgoing_inquiry_sheet_id = '507663'

@@ -1,0 +1,27 @@
+<?php /* Smarty version 2.6.22, created on 2014-01-06 10:12:53
+         compiled from payment_registration/search.html */ ?>
+<div class="pageContent">
+	<form method="post" action="<?php echo $this->_tpl_vars['__ROOT__']; ?>
+/payment_registration/index" class="pageForm" onsubmit="return navTabSearch(this);">
+		<div class="pageFormContent" layoutH="58">
+        
+			<div class="unit">
+				<label style="width:100px;">发票号：</label>
+				<input type="text" name="invoice_number" style="width:160px;" value="<?php echo $this->_tpl_vars['invoice_number']; ?>
+" />
+			</div>
+			<div class="unit">
+				<label style="width:100px;">客户名：</label>
+				<input type="text" name="customer_name" style="width:160px;" value="<?php echo $this->_tpl_vars['customer_name']; ?>
+" />
+			</div>
+			
+		</div>
+		<div class="formBar">
+			<ul>
+				<li><div class="buttonActive"><div class="buttonContent"><button type="submit">开始检索</button></div></div></li>
+				<li><div class="button"><div class="buttonContent"><button type="reset">清空重输</button></div></div></li>
+			</ul>
+		</div>
+	</form>
+</div>

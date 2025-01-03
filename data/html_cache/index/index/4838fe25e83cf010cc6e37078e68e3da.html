@@ -1,0 +1,406 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>西象ERP管理系统</title>
+<link href="http://192.168.1.16/erp/public/themes/default/style.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="http://192.168.1.16/erp/public/themes/css/core.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="http://192.168.1.16/erp/public/themes/css/print.css" rel="stylesheet" type="text/css" media="print"/>
+<link href="http://192.168.1.16/erp/public/uploadify/css/uploadify.css" rel="stylesheet" type="text/css" media="screen"/>
+<!--[if IE]>
+<link href="http://192.168.1.16/erp/public/themes/css/ieHack.css" rel="stylesheet" type="text/css" media="screen"/>
+<![endif]-->
+
+<!--[if lte IE 9]>
+<script src="http://192.168.1.16/erp/public/js/speedup.js" type="text/javascript"></script>
+<![endif]-->
+
+<script src="http://192.168.1.16/erp/public/js/jquery-1.7.2.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/jquery.cookie.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/jquery.validate.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/jquery.bgiframe.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/xheditor/xheditor-1.1.14-zh-cn.min.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/uploadify/scripts/jquery.uploadify.js" type="text/javascript"></script>
+
+<!-- svg图表  supports Firefox 3.0+, Safari 3.0+, Chrome 5.0+, Opera 9.5+ and Internet Explorer 6.0+ -->
+<!--<script type="text/javascript" src="http://192.168.1.16/erp/public/chart/raphael.js"></script>
+<script type="text/javascript" src="http://192.168.1.16/erp/public/chart/g.raphael.js"></script>
+<script type="text/javascript" src="http://192.168.1.16/erp/public/chart/g.bar.js"></script>
+<script type="text/javascript" src="http://192.168.1.16/erp/public/chart/g.line.js"></script>
+<script type="text/javascript" src="http://192.168.1.16/erp/public/chart/g.pie.js"></script>
+<script type="text/javascript" src="http://192.168.1.16/erp/public/chart/g.dot.js"></script>-->
+<script src="http://192.168.1.16/erp/public/js/dwz.core.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.util.date.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.validate.method.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.regional.zh.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.barDrag.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.drag.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.tree.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.accordion.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.ui.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.theme.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.switchEnv.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.alertMsg.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.contextmenu.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.navTab.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.tab.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.resize.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.dialog.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.dialogDrag.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.sortDrag.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.cssTable.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.stable.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.taskBar.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.ajax.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.pagination.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.database.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.datepicker.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.effects.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.panel.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.checkbox.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.history.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.combox.js" type="text/javascript"></script>
+<script src="http://192.168.1.16/erp/public/js/dwz.print.js" type="text/javascript"></script>
+<!--
+<script src="bin/dwz.min.js" type="text/javascript"></script>
+-->
+<script src="http://192.168.1.16/erp/public/js/dwz.regional.zh.js" type="text/javascript"></script>
+<!-- {literal} -->
+<script type="text/javascript">
+$(function(){
+	var xxx = './dwz.frag.xml';
+	//alert(xxx);
+	DWZ.init(xxx, {
+		loginUrl:"login_dialog.html", loginTitle:"登录",	// 弹出登录对话框
+//		loginUrl:"login.html",	// 跳到登录页面
+		statusCode:{ok:200, error:300, timeout:301}, //【可选】
+		pageInfo:{pageNum:"pageNum", numPerPage:"numPerPage", orderField:"orderField", orderDirection:"orderDirection"}, //【可选】
+		debug:false,	// 调试模式 【true|false】
+		callback:function(){
+			initEnv();
+			$("#themeList").theme({themeBase:"../public/themes"}); // themeBase 相对于index页面的主题base路径
+		}
+	});
+});
+
+
+</script>
+<!-- {/literal} -->
+</head>
+
+<body scroll="no">
+<div id="layout">
+  <div id="header">
+    <div class="headerNav">
+      <div class="ManageK">
+        <div style=" color: #FFFFFF;float: left; font-size: 20px; height: 50px;line-height: 50px; margin-left: 20px;">西象ERP管理系统</div>
+        <div class="main-nav">
+          <div class="categorymenu"> </div>
+          <!-- END: CATEGORY-MENU --> 
+        </div>
+        <ul class="nav">
+          <li style="color: #B9CCDA;">admin,欢迎您！</li>
+          <li style="color: #B9CCDA;">您属于：超级管理员</li>
+          <li><a href="http://192.168.1.16/erp/login/user_center" target="dialog" width="600">个人中心</a></li>
+          <li><a href="http://192.168.1.16/erp/login/changepassword" target="dialog" width="600">修改密码</a></li>
+          <li><a href="http://192.168.1.16/erp/login/logout"> 安全退出</a></li>
+        </ul>
+        <ul class="themeList" id="themeList">
+          <li theme="default">
+            <div class="selected">蓝色</div>
+          </li>
+          <li theme="green">
+            <div>绿色</div>
+          </li>
+          <!--<li theme="red"><div>红色</div></li>-->
+          <li theme="purple">
+            <div>紫色</div>
+          </li>
+          <li theme="silver">
+            <div>银色</div>
+          </li>
+          <li theme="azure">
+            <div>天蓝</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- navMenu --> 
+    
+  </div>
+  <div id="leftside">
+    <div id="sidebar_s">
+      <div class="collapse">
+        <div class="toggleCollapse">
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div id="sidebar">
+      <div class="toggleCollapse">
+        <h2>主菜单</h2>
+        <div>收缩</div>
+      </div>
+      <div class="accordion" fillSpace="sidebar">
+              <div class="accordionHeader">
+          <h2><span>Folder</span>销售管理</h2>
+        </div>
+        <div class="accordionContent">
+          <ul class="tree treeFolder">
+                        <li><a href="#" >客户信息管理</a>
+                <ul>
+                     <li><a href="http://192.168.1.16/erp/quotecustomer/index" target="navTab" rel="quotecustomer" fresh="true" >询盘管理</a></li>
+                     <li><a href="http://192.168.1.16/erp/newcustomer/index" target="navTab" rel="newcustomer" fresh="true" >开发客户管理</a></li>
+                     <li><a href="http://192.168.1.16/erp/oldcustomer/index" target="navTab" rel="oldcustomer" fresh="true" >老客户管理</a></li>
+                </ul>
+            </li>
+                        <li><a href="#">报价</a>
+           		 <ul>
+                     <li><a href="#" >报价单</a>
+                     	 <ul>
+                             <li><a href="http://192.168.1.16/erp/hotfix_quotation/index" target="navTab" rel="hotfix_quotation" fresh="true" >烫图报价单</a></li>
+                             
+                             <li><a href="http://192.168.1.16/erp/rhinestone_quotation/index" target="navTab" rel="rhinestone_quotation" fresh="true" >烫钻报价单</a></li>
+                        </ul>
+                     
+                     </li>
+                      <li><a href="#" >外发单</a>
+                     	 <ul>
+                             <li><a href="http://192.168.1.16/erp/outgoing_inquiry_sheet/index" target="navTab" rel="outgoing_inquiry_sheet" fresh="true" >外发询价单</a></li>
+                             
+                             <li><a href="http://192.168.1.16/erp/outgoing_quotation_sheet/index" target="navTab" rel="outgoing_quotation_sheet" fresh="true" >外发报价单</a></li>
+                        </ul>
+                     
+                     </li>
+                     
+                 </ul>
+            
+            </li>
+            <li>
+            	<a href="http://192.168.1.16/erp/create_quotation_invoice/index" target="navTab" rel="create_quotation_invoice" fresh="true" >生成报价单&形式发票 </a>
+                
+            </li>
+            
+                        
+            <li><a href="#">订单</a>
+             <ul>
+                             <li><a href="http://192.168.1.16/erp/product_order/index" target="navTab" rel="order_product_order" fresh="true" >做货单</a></li>
+                             
+                             <li><a href="http://192.168.1.16/erp/outgoing_product_order/index" target="navTab" rel="order_outgoing_product_order" fresh="true" >外发做货单</a></li>
+                        </ul>
+            
+            </li>            <li><a href="http://192.168.1.16/erp/invoice/index" target="navTab" rel="invoice" fresh="true" >发票</a></li>            <li><a href="#" >设置</a>
+            <ul>
+          	    <li><a href="http://192.168.1.16/erp/stock_manage/index" target="navTab" rel="stock_manage" fresh="true" >STOCK设置</a></li>
+                <li><a href="http://192.168.1.16/erp/area/index" target="navTab" rel="area_setting" fresh="true" >地区设置</a></li>
+                <li><a href="http://192.168.1.16/erp/exchangerate/index" target="navTab" rel="exchangerate" fresh="true" >汇率设置</a></li>
+                <li><a href="http://192.168.1.16/erp/quotefrom/index" target="navTab" rel="quotefrom" fresh="true" >询盘来源设置</a></li>
+                <li><a href="http://192.168.1.16/erp/quotecategory/index" target="navTab" rel="quotecategory" fresh="true" >询盘分类设置</a></li>
+               <!-- <li><a href="http://192.168.1.16/erp/material/index" target="navTab" rel="material" fresh="true" >材料设置</a></li>-->
+                <li><a href="http://192.168.1.16/erp/materialformula/index" target="navTab" rel="materialformula" fresh="true" >材料公式设置</a></li>
+                <li><a href="http://192.168.1.16/erp/customeroption/index" target="navTab" rel="customeroption" fresh="true" >客户信息选项设置</a></li>
+                <li><a href="http://192.168.1.16/erp/quotation/index" target="navTab" rel="quotation" fresh="true" >报价单分类设置</a></li>
+                <li><a href="http://192.168.1.16/erp/discount/index" target="navTab" rel="discount" fresh="true" >折扣设置</a></li>
+               <!-- <li><a href="http://192.168.1.16/erp/picturesetuptime/index" target="navTab" rel="picturesetuptime" fresh="true" >排图时间设置</a></li>-->
+                <li><a href="http://192.168.1.16/erp/factorylaborcost/index" target="navTab" rel="factorylaborcost" fresh="true" >工厂手工费设置</a></li>
+                <!--<li><a href="http://192.168.1.16/erp/factoryproductcycle/index" target="navTab" rel="factoryproductcycle" fresh="true" >工厂做货周期设置</a></li>-->
+                <li><a href="http://192.168.1.16/erp/time/index" target="navTab" rel="time" fresh="true" >时间设置</a></li>
+                <li><a href="http://192.168.1.16/erp/timecategory/index" target="navTab" rel="timecategory" fresh="true" >时间分类设置</a></li>
+                
+                <li><a href="http://192.168.1.16/erp/pricerange/index" target="navTab" rel="pricerange" fresh="true" >价格范围设置</a></li>
+                <li><a href="http://192.168.1.16/erp/pricerangecategory/index" target="navTab" rel="pricerangecategory" fresh="true" >价格范围分类设置</a></li>
+                
+                 <li><a href="http://192.168.1.16/erp/shippingcompany/index" target="navTab" rel="shippingcompany" fresh="true" >快递公司设置</a></li>
+                 <li><a href="http://192.168.1.16/erp/tapedata/index" target="navTab" rel="tapedata" fresh="true" >胶纸数据设置</a></li>
+                <li><a href="http://192.168.1.16/erp/company_setting/index" target="navTab" rel="company_setting" fresh="true" >公司信息设置</a></li>
+                <li><a href="http://192.168.1.16/erp/setting/index" target="navTab" rel="setting" fresh="true" >其他设置</a></li>
+            </ul>
+            </li>            <li><a href="#">审批</a>
+             <ul>
+               <li><a href="http://192.168.1.16/erp/product_order/index" target="navTab" rel="order_product_order" fresh="true" >折扣审批</a></li>
+               <li><a href="http://192.168.1.16/erp/outgoing_product_order/index" target="navTab" rel="order_outgoing_product_order" fresh="true" >报价系数低于标准</a></li>
+               <li><a href="http://192.168.1.16/erp/outgoing_product_order/index" target="navTab" rel="order_outgoing_product_order" fresh="true" >免费做货</a></li>
+               <li><a href="http://192.168.1.16/erp/outgoing_product_order/index" target="navTab" rel="order_outgoing_product_order" fresh="true" >发票状态返回</a></li>
+               <li><a href="http://192.168.1.16/erp/outgoing_product_order/index" target="navTab" rel="order_outgoing_product_order" fresh="true" >先做货后付款</a></li>
+               <li><a href="http://192.168.1.16/erp/outgoing_product_order/index" target="navTab" rel="order_outgoing_product_order" fresh="true" >部分付款后做货</a></li>
+                        </ul>
+            
+            
+            
+            </li>            <li><a href="#">活动管理</a>
+            	<ul>
+                	<li><a href="#">销售活动管理</a></li>
+                    <li><a href="#">客户活动管理</a></li>
+                </ul>
+            </li>
+            <li><a href="#">成本明细</a>
+            	<ul>
+              		<li><a href="#">月成本明细</a></li>
+                    <li><a href="http://192.168.1.16/erp/material/index" target="navTab" rel="material" fresh="true" >材料成本表</a></li>
+                </ul>
+            </li>
+             <li><a href="#">销售成绩&目标</a>
+            	<ul>
+              		<li><a href="#">月销售</a></li>
+                    <li><a href="#">日销售</a></li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+                        <div class="accordionHeader">
+          <h2><span>Folder</span>设计管理</h2>
+        </div>
+        <div class="accordionContent">
+          <ul class="tree treeFolder">
+            <li><a href="http://192.168.1.16/erp/unfinishdesign/index" target="navTab" rel="unfinishdesign" fresh="true" >未完成设计</a></li>            <li><a href="http://192.168.1.16/erp/uncheckdesign/index" target="navTab" rel="uncheckdesign" fresh="true">未检验设计</a></li>            <li><a href="http://192.168.1.16/erp/finishdesign/index" target="navTab" rel="finishdesign" fresh="true">已完成设计</a></li>          </ul>
+        </div>
+                        <div class="accordionHeader">
+          <h2><span>Folder</span>工厂管理</h2>
+        </div>
+        <div class="accordionContent">
+          <ul class="tree treeFolder">
+            <li><a href="#" target="navTab">订单信息</a></li>            <li><a href="#" target="navTab">仓库信息</a></li>            <li><a href="#" target="navTab">制版信息</a></li>            <li><a href="#" target="navTab">采购信息</a></li>          </ul>
+        </div>
+                        <div class="accordionHeader">
+          <h2><span>Folder</span>财务管理</h2>
+        </div>
+        <div class="accordionContent">
+          <ul class="tree treeFolder">
+            <li><a href="#" target="navTab">收款登记</a></li>          </ul>
+        </div>
+                        <div class="accordionHeader">
+          <h2><span>Folder</span>电商管理</h2>
+        </div>
+        <div class="accordionContent">
+          <ul class="tree treeFolder">
+            <li><a href="#">流量登记</a>
+            <ul>
+            <li><a href="http://192.168.1.16/erp/flow_book/index"  target="navTab"  rel="flow_book" fresh="true">网站流量</a></li>
+            <li><a href="http://192.168.1.16/erp/ali_hits/index"  target="navTab"  rel="ali_hits" fresh="true">阿里点击量</a></li>
+            </ul>
+            </li>          </ul>
+        </div>
+                        <div class="accordionHeader">
+          <h2><span>Folder</span>账户管理</h2>
+        </div>
+        <div class="accordionContent">
+          <ul class="tree treeFolder">
+            <li><a href="#" target="navTab">部门管理</a></li>            <li><a href="http://192.168.1.16/erp/usergroup/index" target="navTab" rel="group_index" fresh="true">用户组管理</a></li>            <li><a href="http://192.168.1.16/erp/user/index" target="navTab" rel="user_index" fresh="true">用户管理</a></li>          </ul>
+        </div>
+                        <div class="accordionHeader">
+          <h2><span>Folder</span>报表总汇</h2>
+        </div>
+        <div class="accordionContent">
+          <ul class="tree treeFolder">
+            <li><a href="#" target="navTab">销售明细</a></li>            <li><a href="#" target="navTab">成本明细</a></li>            <li><a href="#" target="navTab">报表汇总</a></li>           <li><a href="http://192.168.1.16/erp/bosssetting/index" target="navTab" rel="bosssetting" fresh="true">老板设置</a></li>
+          </ul>
+        </div>
+              </div>
+    </div>
+  </div>
+  <div id="container">
+    <div id="navTab" class="tabsPage">
+      <div class="tabsPageHeader">
+        <div class="tabsPageHeaderContent"><!-- 显示左右控制时添加 class="tabsPageHeaderMargin" -->
+          <ul class="navTab-tab">
+            <li tabid="main" class="main"><a href="javascript:;"><span><span class="home_icon">我的主页</span></span></a></li>
+          </ul>
+        </div>
+        <div class="tabsLeft">left</div>
+        <!-- 禁用只需要添加一个样式 class="tabsLeft tabsLeftDisabled" -->
+        <div class="tabsRight">right</div>
+        <!-- 禁用只需要添加一个样式 class="tabsRight tabsRightDisabled" -->
+        <div class="tabsMore">more</div>
+      </div>
+      <ul class="tabsMoreList">
+        <li><a href="javascript:;">我的主页</a></li>
+      </ul>
+      <div class="navTab-panel tabsPageContent layoutBox">
+        <div class="page unitBox">
+          <div style=" float:left; display:block; margin:10px; overflow:auto; width:200px; height:200px; border:solid 1px #CCC; line-height:21px; background:#FFF;">
+            <ul class="tree">
+              <li><a href="#">公告</a>
+                <ul>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div style=" float:left; display:block; margin:10px; overflow:auto; width:200px; height:200px; border:solid 1px #CCC; line-height:21px; background:#FFF;">
+            <ul class="tree">
+              <li><a href="#">公告</a>
+                <ul>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div style=" float:left; display:block; margin:10px; overflow:auto; width:200px; height:200px; border:solid 1px #CCC; line-height:21px; background:#FFF;">
+            <ul class="tree">
+              <li><a href="#">公告</a>
+                <ul>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div style=" float:left; display:block; margin:10px; overflow:auto; width:200px; height:200px; border:solid 1px #CCC; line-height:21px; background:#FFF;">
+            <ul class="tree">
+              <li><a href="#">公告</a>
+                <ul>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                  <li><a href="#">待审核的单据 (15张)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">Copyright &copy; 2013 杨益<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2414456170&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2414456170:52" width="15px" height="15px" alt="点击这里给我发消息" title="点击这里给我发消息"/></a> </div>
+</body>
+</html>

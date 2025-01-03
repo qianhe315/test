@@ -1,0 +1,560 @@
+2024-09-13 15:50:58 | 192.168.1.45 |   用户：    SQL : SELECT * FROM `cs_users`  WHERE user_name = 'admin' LIMIT 1
+2024-09-13 15:50:58 | 192.168.1.45 |   用户：    SQL : SELECT * FROM `cs_users`  WHERE  user_name = 'admin' and password = 'c8f86bf9c7bf42da426fe359103d40f3' and log_status = 1  LIMIT 1
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_user_group`  WHERE  group_id = '5'  LIMIT 1
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : UPDATE `cs_users` SET error_count = 0  WHERE  user_name = 'admin'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : INSERT INTO `cs_login_ip_manage`  (`insert_time`,`account_number`,`ip`,`browser`,`system`,`access_ip`) VALUES ('2024-09-13 15:50:58','admin','192.168.1.45','Chrome(128.0.0.0)','Windows 10','www.erp_demo.com') 
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL :  select a.*,b.* from cs_users as a left join cs_user_group as b on a.group_id = b.group_id where user_id = '1' 
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_users`  WHERE  user_id = '1'  LIMIT 1
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_users`  WHERE  user_name = 'admin' LIMIT 1
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-01%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-01%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-01%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-01%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-01%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-01%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-01%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-01%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-02%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-02%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-02%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-02%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-02%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-02%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-02%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-02%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-03%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-03%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-03%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-03%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-03%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-03%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-03%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-03%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-04%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-04%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-04%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-04%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-04%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-04%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-04%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-04%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-05%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-05%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-05%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-05%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-05%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-05%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-05%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-05%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-06%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-06%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-06%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-06%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-06%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-06%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-06%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-06%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-07%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-07%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-07%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-07%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-07%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-07%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-07%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-07%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-08%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-08%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-08%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-08%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-08%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-08%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-08%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-08%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-09%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-09%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-09%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-09%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-09%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-09%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-09%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-09%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-10%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-10%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-10%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-10%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-10%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-10%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-10%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-10%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-11%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-11%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-11%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-11%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-11%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-11%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-11%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-11%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2015-12%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2016-12%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2017-12%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2018-12%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2019-12%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2020-12%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2021-12%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers`  WHERE customer_code != '' and quote_time_c like '%2022-12%'
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT id FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-01%'  
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-01%'  
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-01%'  
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-01%'  
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-01%'  
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-01%'  
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-01%'  
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-01%'  
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:50:58 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-02%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-02%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-02%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-02%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-02%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-02%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-02%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-02%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-03%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-03%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-03%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-03%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-03%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-03%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-03%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-03%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-04%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-04%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-04%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-04%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-04%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-04%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-04%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-04%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-05%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-05%'  
+2024-09-13 15:50:59 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-05%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-05%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-05%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-05%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-05%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-05%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-06%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-06%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-06%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-06%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-06%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-06%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-06%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-06%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-07%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-07%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-07%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-07%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-07%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-07%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-07%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-07%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-08%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-08%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-08%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-08%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-08%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-08%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-08%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-08%'  
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:51:00 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-09%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-09%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-09%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-09%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-09%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-09%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-09%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-09%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-10%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-10%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-10%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-10%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-10%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-10%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-10%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-10%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-11%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-11%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-11%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-11%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-11%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-11%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-11%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-11%'  
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:51:01 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2022-12%'  
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2021-12%'  
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2020-12%'  
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2019-12%'  
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2018-12%'  
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2017-12%'  
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2016-12%'  
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT SUM(paid_money_us) FROM cs_sale_detail where  paid_time like '%2015-12%'  
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='1' LIMIT 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_exchangerate`  WHERE id='2' LIMIT 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_design_return`  WHERE d_status = 5
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_deposit_advance`  WHERE status = 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_save_detail`  WHERE status = 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_discount_audit`  WHERE d_status = 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_quotation_approval`  WHERE status = 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_preparation_approval`  WHERE status = 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_customers_list_approval`  WHERE cla_status = 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_invoice_status`  WHERE type = 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_application_drawback`  WHERE status = 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and invoice_status = 5
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and invoice_status = 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and invoice_status = 2
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and  invoice_status = 3
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_production_approve`  WHERE approve_type = 1 and invoice_status = 4
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_note`  WHERE user_name='admin' LIMIT 1
+2024-09-13 15:51:02 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_customers`  WHERE email in (select email from cs_web_quote where status=0)
+2024-09-13 15:51:09 | 192.168.1.45 |   用户： admin   SQL :  select a.*,b.* from cs_users as a left join cs_user_group as b on a.group_id = b.group_id where user_id = '1' 
+2024-09-13 15:51:09 | 192.168.1.45 |   用户： admin   SQL : select a.*,b.* from cs_user_group as a left join cs_users as b on a.group_id = b.group_id where a.bumen = '国外销售部'
+2024-09-13 15:51:09 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_users`  WHERE  user_name = 'admin' LIMIT 1
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_quotation_sheet`  WHERE  1=1  and (quotation_category ='1' or quotation_category ='2') and order_status='2' and type1 = '1' 
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_quotation_sheet`  WHERE  1=1  and (quotation_category ='1' or quotation_category ='2') and order_status='2' and type1 = '1'  ORDER BY  id desc  LIMIT 0,50
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530868' LIMIT 1
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530868'
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530868"
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530864' LIMIT 1
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530864'
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530864"
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530862' LIMIT 1
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530862'
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530862"
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530853' LIMIT 1
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530853'
+2024-09-13 15:51:22 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530853"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530841' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530841'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530841"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530859' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530859'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530859"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530745' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530745'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530745"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530826' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530826'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530826"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530757' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530757'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530757"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530782' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530782'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530782"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530740' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530740'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530740"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530816' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530816'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530816"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530824' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530824'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530824"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530717' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530717'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530717"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530692' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530692'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530692"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530691' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530691'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530691"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530836' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530836'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530836"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530743' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530743'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530743"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530742' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530742'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530742"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530822' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530822'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530822"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530829' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530829'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530829"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530833' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530833'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530833"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530709' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530709'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530709"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530799' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530799'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530799"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530795' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530795'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530795"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530818' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530818'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530818"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530784' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530784'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530784"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530702' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530702'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530702"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530825' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530825'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530825"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530817' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530817'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530817"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530806' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530806'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530806"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530803' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530803'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530803"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530804' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530804'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530804"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530762' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530762'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530762"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530797' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530797'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530797"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '529871' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '529871'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="529871"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530780' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530780'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530780"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530636' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530636'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530636"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530792' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530792'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530792"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530791' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530791'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530791"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530790' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530790'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530790"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530753' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530753'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530753"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530761' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530761'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530761"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530752' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530752'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530752"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530679' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530679'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530679"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530666' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530666'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530666"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530751' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530751'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530751"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530758' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530758'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530758"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530760' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530760'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530760"
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530611' LIMIT 1
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530611'
+2024-09-13 15:51:23 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530611"
+2024-09-13 15:51:27 | 192.168.1.45 |   用户： admin   SQL :  select a.*,b.* from cs_users as a left join cs_user_group as b on a.group_id = b.group_id where user_id = '1' 
+2024-09-13 15:51:27 | 192.168.1.45 |   用户： admin   SQL : select a.*,b.* from cs_user_group as a left join cs_users as b on a.group_id = b.group_id where a.bumen = '国外销售部'
+2024-09-13 15:51:27 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_users`  WHERE  user_name = 'admin' LIMIT 1
+2024-09-13 15:51:28 | 192.168.1.45 |   用户： admin   SQL : SELECT count(*) FROM `cs_quotation_sheet`  WHERE  1=1  and design_pic_name like '%bow%'  and (quotation_category ='1' or quotation_category ='2') and order_status='2' and type1 = '1' 
+2024-09-13 15:51:28 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_quotation_sheet`  WHERE  1=1  and design_pic_name like '%bow%'  and (quotation_category ='1' or quotation_category ='2') and order_status='2' and type1 = '1'  ORDER BY  id desc  LIMIT 0,50
+2024-09-13 15:51:28 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530864' LIMIT 1
+2024-09-13 15:51:28 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530864'
+2024-09-13 15:51:28 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530864"
+2024-09-13 15:51:28 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530862' LIMIT 1
+2024-09-13 15:51:28 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530862'
+2024-09-13 15:51:28 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530862"
+2024-09-13 15:51:28 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '530525' LIMIT 1
+2024-09-13 15:51:28 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '530525'
+2024-09-13 15:51:28 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="530525"
+2024-09-13 15:51:29 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '529586' LIMIT 1
+2024-09-13 15:51:29 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '529586'
+2024-09-13 15:51:29 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="529586"
+2024-09-13 15:51:29 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '529529' LIMIT 1
+2024-09-13 15:51:30 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '529529'
+2024-09-13 15:51:30 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="529529"
+2024-09-13 15:51:30 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '529316' LIMIT 1
+2024-09-13 15:51:31 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '529316'
+2024-09-13 15:51:31 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="529316"
+2024-09-13 15:51:31 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528966' LIMIT 1
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528966'
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528966"
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '529330' LIMIT 1
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '529330'
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="529330"
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528864' LIMIT 1
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528864'
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528864"
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528861' LIMIT 1
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528861'
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528861"
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528814' LIMIT 1
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528814'
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528814"
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528894' LIMIT 1
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528894'
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528894"
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '529327' LIMIT 1
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '529327'
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="529327"
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528935' LIMIT 1
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528935'
+2024-09-13 15:51:32 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528935"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '529199' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '529199'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="529199"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528847' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528847'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528847"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528801' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528801'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528801"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528417' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528417'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528417"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528066' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528066'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528066"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528172' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528172'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528172"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528157' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528157'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528157"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528150' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528150'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528150"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528131' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528131'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528131"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528127' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528127'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528127"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528123' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528123'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528123"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528120' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528120'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528120"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '528038' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '528038'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="528038"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '527890' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '527890'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="527890"
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '526584' LIMIT 1
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '526584'
+2024-09-13 15:51:33 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="526584"
+2024-09-13 15:51:34 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '526546' LIMIT 1
+2024-09-13 15:51:34 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '526546'
+2024-09-13 15:51:34 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="526546"
+2024-09-13 15:51:34 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '526129' LIMIT 1
+2024-09-13 15:51:34 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '526129'
+2024-09-13 15:51:34 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="526129"
+2024-09-13 15:51:34 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '525003' LIMIT 1
+2024-09-13 15:51:35 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '525003'
+2024-09-13 15:51:35 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="525003"
+2024-09-13 15:51:35 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '525055' LIMIT 1
+2024-09-13 15:51:35 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '525055'
+2024-09-13 15:51:35 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="525055"
+2024-09-13 15:51:35 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '524456' LIMIT 1
+2024-09-13 15:51:35 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '524456'
+2024-09-13 15:51:35 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="524456"
+2024-09-13 15:51:35 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '524387' LIMIT 1
+2024-09-13 15:51:35 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '524387'
+2024-09-13 15:51:35 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="524387"
+2024-09-13 15:51:36 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '524265' LIMIT 1
+2024-09-13 15:51:36 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '524265'
+2024-09-13 15:51:36 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="524265"
+2024-09-13 15:51:37 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '524164' LIMIT 1
+2024-09-13 15:51:37 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '524164'
+2024-09-13 15:51:37 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="524164"
+2024-09-13 15:51:38 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '524152' LIMIT 1
+2024-09-13 15:51:38 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '524152'
+2024-09-13 15:51:38 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="524152"
+2024-09-13 15:51:39 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '523884' LIMIT 1
+2024-09-13 15:51:39 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '523884'
+2024-09-13 15:51:39 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="523884"
+2024-09-13 15:51:39 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_quotation_sheet_material`  WHERE quotation_id = '549829'
+2024-09-13 15:51:39 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_quotation_sheet_material`  WHERE quotation_id = '549829'
+2024-09-13 15:51:39 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '523773' LIMIT 1
+2024-09-13 15:51:39 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '523773'
+2024-09-13 15:51:39 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="523773"
+2024-09-13 15:51:40 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '520472' LIMIT 1
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '520472'
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="520472"
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '521895' LIMIT 1
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '521895'
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="521895"
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '521259' LIMIT 1
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '521259'
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="521259"
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '521131' LIMIT 1
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '521131'
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="521131"
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '520379' LIMIT 1
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '520379'
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="520379"
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '520171' LIMIT 1
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '520171'
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="520171"
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '520023' LIMIT 1
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '520023'
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="520023"
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '520037' LIMIT 1
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '520037'
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="520037"
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT content_inch_w,content_inch_h FROM `cs_design_content`  WHERE id = '519913' LIMIT 1
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id = '519913'
+2024-09-13 15:51:41 | 192.168.1.45 |   用户： admin   SQL : SELECT material_color FROM `cs_design_content_material`  WHERE design_content_id="519913"
+2024-09-13 15:51:48 | 192.168.1.45 |   用户： admin   SQL :  select a.*,b.* from cs_users as a left join cs_user_group as b on a.group_id = b.group_id where user_id = '1' 
+2024-09-13 15:51:48 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_quotation_sheet`  WHERE id = '555571' LIMIT 1
+2024-09-13 15:51:48 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_order_category`  WHERE id=1 or id=7 or id=10
+2024-09-13 15:51:48 | 192.168.1.45 |   用户： admin   SQL : select * from cs_order where customer_code = 'B9462' and order_number like '%B9462202409%' order by id desc
+2024-09-13 15:51:48 | 192.168.1.45 |   用户： admin   SQL : select a.*,b.* from cs_timecategory as a left join cs_time as b on a.id = b.time_category where a.timecategory_name = '烫图做货时间'
+2024-09-13 15:51:48 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_design_content`  WHERE id = '530525' LIMIT 1
+2024-09-13 15:51:48 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_design_content_material`  WHERE design_content_id = '530525'
+2024-09-13 15:51:48 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_quotation_sheet`  WHERE id = '555571' LIMIT 1
+2024-09-13 15:51:48 | 192.168.1.45 |   用户： admin   SQL : SELECT * FROM `cs_users`  WHERE  user_name = 'admin' LIMIT 1
